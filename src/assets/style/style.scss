@@ -1,0 +1,48 @@
+html {
+	background: rgb(251,251,251);
+	background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(186,216,240,1) 100%);
+	min-height: 100%;
+}
+
+body {
+	padding-bottom: 3em;
+}
+
+h1 {
+	color: #263e69;
+	text-align: left;
+}
+
+ul {
+	padding: 0;
+	li {
+		background: #fbfbfb;
+		text-align: left;
+		margin-bottom: 2em;
+		padding: 0.5em 1em;
+		border-radius: 0.5em;
+		&:hover, 
+			&:active {
+				background: #69cef5;
+				transition: 0.2s;
+			}
+		a {
+			display: block;
+			text-decoration: none;
+			color: #263e69;
+			padding: 0.5em 1em;
+		}
+	}
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.orientacoes {
+	background: #fbfbfb;
+	border-radius: 0.5em;
+	padding: 0.5em 1em;
+	text-align: left;
+}

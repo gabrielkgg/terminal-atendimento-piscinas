@@ -12,6 +12,9 @@ export const aguaLimpa: Array<RouteConfig> = [
 		path: "/agua-limpa",
 		name: "aguaLimpa",
 		component: AguaLimpa,
+		meta: {
+			text: 'Minha piscina está com a água limpa'
+		}
 	},
 	{
 		path: "/agua-limpa/orientacoes",

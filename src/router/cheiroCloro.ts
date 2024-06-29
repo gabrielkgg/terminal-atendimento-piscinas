@@ -6,5 +6,8 @@ export const cheiroCloro: Array<RouteConfig> = [
 		path: "/cheiro-cloro",
 		name: "cheiroCloro",
 		component: CheiroCloro,
+		meta: {
+			text: 'Minha piscina tem cheiro de cloro'
+		}
 	},
 ]

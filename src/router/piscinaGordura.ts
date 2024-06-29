@@ -6,5 +6,8 @@ export const piscinaGordura: Array<RouteConfig> = [
 		path: "/gordura-sobre-agua",
 		name: "gordura",
 		component: PiscinaGordura,
+		meta: {
+			text: 'Minha piscina tem gordura sobre a água'
+		}
 	},
 ]

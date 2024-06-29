@@ -8,6 +8,9 @@ export const piscinasManchas: Array<RouteConfig> = [
 		path: "/piscina-manchada",
 		name: "piscinaManchada",
 		component: PiscinaManchas,
+		meta: {
+			text: 'Minha piscina está com manchas'
+		}
 	},
 	{
 		path: "/piscina-manchada/fibra-desbotada",

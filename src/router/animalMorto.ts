@@ -7,6 +7,9 @@ export const animalMorto: Array<RouteConfig> = [
 		path: "/animal-morto",
 		name: "animalMorto",
 		component: AnimalMorto,
+		meta: {
+			text: 'Encontrei um animal morto na minha piscina'
+		}
 	},
 	{
 		path: "/animal-morto/decantacao",

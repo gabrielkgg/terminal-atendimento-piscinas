@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+@import 'assets/style/style.scss';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

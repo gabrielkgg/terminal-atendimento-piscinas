@@ -7,6 +7,9 @@ export const teorCloroAlto: Array<RouteConfig> = [
 		path: "/teor-de-cloro-alto",
 		name: "teorCloroAlto",
 		component: TeorCloroAlto,
+		meta: {
+			text: 'Teor de cloro muito alto e tende a ficar turva/verde'
+		}
 	},
 	{
 		path: "/teor-de-cloro-alto/recomendacao",

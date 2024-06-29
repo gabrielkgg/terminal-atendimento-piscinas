@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="container">
 		<ul>
 			<li>
 				<router-link :to="{name: 'aguaLimpa'}">
@@ -43,12 +43,12 @@
 			</li>
 			<li>
 				<router-link :to="{name: 'teorCloroAlto'}">
-					Minha piscina está com teor de cloro muito alto e tende a ficar turva e/ou verde.
+					Teor de cloro muito alto e tende a ficar turva e/ou verde.
 				</router-link>
 			</li>
 			<li>
 				<router-link :to="{name: 'bordasSujas'}">
-					Minha piscina está sempre com as bordas manchadas/sujas no nível da água
+					Bordas manchadas ou sujas no nível da água
 				</router-link>
 			</li>
 		</ul>

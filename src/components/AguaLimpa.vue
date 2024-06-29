@@ -1,6 +1,8 @@
 <template>
 	<div>
 		<Logo />
+		<Voltar />
+		<h1>{{ $route?.meta?.text }}</h1>
 		<ul>
 			<li>
 				<router-link :to="{name:'orientacoes'}">
@@ -35,11 +37,13 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import Logo from "@/components/Logo.vue";
+import Voltar from "@/components/Voltar.vue"
 
 
 @Component({
 	components: {
-		Logo
+		Logo,
+		Voltar
 	}
 })
 export default class AguaLimpa extends Vue {}

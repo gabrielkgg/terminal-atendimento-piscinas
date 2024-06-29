@@ -10,6 +10,9 @@ export const aguaVerde: Array<RouteConfig> = [
 		path: "/agua-verde",
 		name: "aguaVerde",
 		component: AguaVerde,
+		meta: {
+			text: 'Minha piscina está com a água verde'
+		}
 	},
 	{
 		path: "/agua-verde/visibilidade-alta",

@@ -9,6 +9,9 @@ export const aguaTurva: Array<RouteConfig> = [
 		path: "/agua-turva",
 		name: "aguaTurva",
 		component: AguaTurva,
+		meta: {
+			text: 'Minha piscina está com a água turva (mas não verde)'
+		}
 	},
 	{
 		path: "/agua-turva/vejo-o-fundo",
