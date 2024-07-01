@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<img alt="Vue logo" src="../assets/jck-logo.png" class="logo"/>
+		<router-link :to="{name: 'home'}">
+			<img alt="Vue logo" src="../assets/jck-logo.png" class="logo"/>
+		</router-link>
 	</div>
 </template>
 <style scoped>
